@@ -1,0 +1,24 @@
+{
+  "name": "ra-language-turkish",
+  "version": "1.0.0",
+  "description": "Turkish messages for react-admin, the frontend framework for building admin applications on top of REST/GraphQL services",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KamilGunduz/ra-language-turkish.git"
+  },
+  "keywords": [
+    "react",
+    "react-admin",
+    "translation"
+  ],
+  "author": "Kamil Gündüz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KamilGunduz/ra-language-turkish/issues"
+  },
+  "homepage": "https://github.com/KamilGunduz/ra-language-turkish#readme"
+}
