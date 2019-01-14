@@ -4,10 +4,11 @@ module.exports = {
             add_filter: 'Filtre ekle',
             add: 'Ekle',
             back: 'Geri Dön',
-            bulk_actions: '%{smart_count} seçildi',
+            bulk_actions: '1 seçildi |||| %{smart_count} seçildi',
             cancel: 'İptal',
             clear_input_value: 'Temizle',
             clone: 'Çoğalt',
+            confirm: 'Onayla',
             create: 'Oluştur',
             delete: 'Sil',
             edit: 'Düzenle',
@@ -17,6 +18,7 @@ module.exports = {
             remove_filter: 'Filtreyi kaldır',
             remove: 'Kaldır',
             save: 'Kaydet',
+            search: 'Ara',
             show: 'Göster',
             sort: 'Sırala',
             undo: 'Geri al',
@@ -48,7 +50,7 @@ module.exports = {
                     'Yüklemek istediğiniz resmi buraya sürükleyin ya da seçmek için tıklayın.',
             },
             references: {
-                all_missing: 'Unable to find references data.',
+                all_missing: 'Referans verileri bulunamadı.',
                 many_missing:
                     'İlişkilendirilmiş referanslardan en az biri artık mevcut değil.',
                 single_missing:
@@ -82,10 +84,12 @@ module.exports = {
             page_out_from_end: 'Son sayfadan ileri gidemezsin',
             page_out_from_begin: '1. sayfadan geri gidemezsin',
             page_range_info: '%{offsetBegin}-%{offsetEnd} of %{total}',
+            page_rows_per_page: 'Sayfa başına kayıtlar',
             next: 'Sonraki',
             prev: 'Önceki',
         },
         auth: {
+            user_menu: 'Profil',
             username: 'Kullanıcı adı',
             password: 'Parola',
             sign_in: 'Giriş yap',
@@ -102,6 +106,7 @@ module.exports = {
             data_provider_error:
                 'dataProvider hatası. Detay için konsolu gözden geçir.',
             canceled: 'Eylem iptal edildi',
+            logged_out: 'Oturumunuz sona erdi, Lütfen yeniden bağlanın.'
         },
         validation: {
             required: 'Zorunlu alan',
