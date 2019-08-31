@@ -19,7 +19,9 @@ const messages = {
     'tr': turkishMessages,
 };
 
-<Admin locale="tr" messages={messages}>
+const i18nProvider = locale => messages[locale];
+
+<Admin locale="tr" i18nProvider={i18nProvider}>
   ...
 </Admin>
 ```
