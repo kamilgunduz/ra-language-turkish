@@ -1,3 +1,5 @@
+
+
 module.exports = {
     ra: {
         action: {
@@ -22,10 +24,16 @@ module.exports = {
             show: 'Göster',
             sort: 'Sırala',
             undo: 'Geri al',
+            unselect: 'Seçimi kaldır',
+            expand: 'Genişlet',
+            close: 'Kapat',
+            open_menu: 'Menüyü aç',
+            close_menu: 'Menüyü kapat',
         },
         boolean: {
             true: 'Evet',
             false: 'Hayır',
+            null: ' ',
         },
         page: {
             create: '%{name} oluştur',
@@ -36,6 +44,8 @@ module.exports = {
             loading: 'Yükleniyor',
             not_found: 'Sayfa bulunamadı',
             show: '%{name} #%{id}',
+            empty: 'Henüz% {name} yok.',
+            invite: 'Eklemek ister misin?',
         },
         input: {
             file: {
@@ -56,6 +66,10 @@ module.exports = {
                 single_missing:
                     'İlişkilendirilmiş referans artık mevcut değil.',
             },
+            password: {
+                toggle_visible: 'Şifreyi gizle',
+                toggle_hidden: 'Şifreyi göster',
+            },
         },
         message: {
             about: 'Hakkında',
@@ -75,6 +89,8 @@ module.exports = {
             not_found:
                 'Hatalı bir URL girdiniz ya da yanlış bir linke tıkladınız',
             yes: 'Evet',
+            unsaved_changes:
+                "Değişikliklerinizden bazıları kaydedilmedi. Onları görmezden gelmek istediğinizden emin misiniz?",
         },
         navigation: {
             no_results: 'Kayıt bulunamadı',
@@ -83,12 +99,18 @@ module.exports = {
             page_out_of_boundaries: '%{page} sayfası mevcut değil',
             page_out_from_end: 'Son sayfadan ileri gidemezsin',
             page_out_from_begin: '1. sayfadan geri gidemezsin',
-            page_range_info: '%{offsetBegin}-%{offsetEnd} of %{total}',
+            page_range_info: '%{offsetBegin}-%{offsetEnd} / %{total}',
             page_rows_per_page: 'Sayfa başına kayıtlar',
             next: 'Sonraki',
             prev: 'Önceki',
         },
+        sort: {
+            sort_by: '% {Field}% {order}a göre sıralandı',
+            ASC: 'artan',
+            DESC: 'azalan',
+        },
         auth: {
+            auth_check_error: 'Please login to continue',
             user_menu: 'Profil',
             username: 'Kullanıcı adı',
             password: 'Parola',
@@ -105,6 +127,8 @@ module.exports = {
             http_error: 'Sunucu iletişim hatası',
             data_provider_error:
                 'dataProvider hatası. Detay için konsolu gözden geçir.',
+            i18n_error:
+                'Belirtilen dil için çeviriler yüklenemiyor',
             canceled: 'Eylem iptal edildi',
             logged_out: 'Oturumunuz sona erdi, Lütfen yeniden bağlanın.'
         },
