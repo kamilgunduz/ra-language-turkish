@@ -1,6 +1,6 @@
 {
   "name": "ra-language-turkish",
-  "version": "2.0.1",
+  "version": "3.9.3",
   "description": "Turkish messages for react-admin, the frontend framework for building admin applications on top of REST/GraphQL services",
   "main": "index.js",
   "scripts": {
