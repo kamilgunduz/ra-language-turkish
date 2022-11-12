@@ -29,6 +29,16 @@ module.exports = {
             close: 'Kapat',
             open_menu: 'Menüyü aç',
             close_menu: 'Menüyü kapat',
+            create_item: '%{item} oluştur',
+            move_down: 'Aşağı in',
+            move_up: 'Yukarı çık',
+            open: 'Aç',
+            remove_all_filters: 'Tüm filtreleri kaldır',
+            select_all: 'Tümünü seç',
+            select_columns: 'Sütunları seç',
+            select_row: 'Satırı seç',
+            toggle_theme: 'Temayı Değiştir',
+            update: 'Güncelle',
         },
         boolean: {
             true: 'Evet',
@@ -91,6 +101,10 @@ module.exports = {
             yes: 'Evet',
             unsaved_changes:
                 "Değişikliklerinizden bazıları kaydedilmedi. Onları görmezden gelmek istediğinizden emin misiniz?",
+            bulk_update_content:
+                'Bu %{name} güncellemek istediğinizden emin misiniz? |||| Bu %{smart_count} öğeyi güncellemek istediğinizden emin misiniz?',
+            bulk_update_title:
+                '%{name} Güncelle |||| %{smart_count} %{name} güncelle',
         },
         navigation: {
             no_results: 'Kayıt bulunamadı',
@@ -103,6 +117,13 @@ module.exports = {
             page_rows_per_page: 'Sayfa başına kayıtlar',
             next: 'Sonraki',
             prev: 'Önceki',
+            partial_page_range_info: '%{offsetBegin}-%{offsetEnd} / %{offsetEnd} değerinden fazlası',
+            current_page: 'Sayfa %{page}',
+            page: '%{page}. sayfaya git',
+            first: 'İlk sayfaya git',
+            last: 'Son sayfaya git',
+            previous: 'Önceki sayfaya git',
+            skip_nav: 'İçeriğe atla',
         },
         sort: {
             sort_by: '% {Field}% {order}a göre sıralandı',
@@ -110,7 +131,7 @@ module.exports = {
             DESC: 'azalan',
         },
         auth: {
-            auth_check_error: 'Please login to continue',
+            auth_check_error: 'Devam etmek için lütfen giriş yapınız',
             user_menu: 'Profil',
             username: 'Kullanıcı adı',
             password: 'Parola',
@@ -130,7 +151,8 @@ module.exports = {
             i18n_error:
                 'Belirtilen dil için çeviriler yüklenemiyor',
             canceled: 'Eylem iptal edildi',
-            logged_out: 'Oturumunuz sona erdi, Lütfen yeniden bağlanın.'
+            logged_out: 'Oturumunuz sona erdi, Lütfen yeniden bağlanın.',
+            not_authorized: 'Bu kaynağa erişim yetkiniz yok.',
         },
         validation: {
             required: 'Zorunlu alan',
@@ -142,6 +164,31 @@ module.exports = {
             email: 'E-posta geçerli değil',
             oneOf: 'Bunlardan biri olmalı: %{options}',
             regex: 'Belirli bir formatla eşleşmelidir (regexp): %{pattern}',
+        },
+        saved_queries: {
+            label: 'Kaydedilen sorgular',
+            query_name: 'Sorgu adı',
+            new_label: 'Mevcut sorguyu kaydet ...',
+            new_dialog_title: 'Mevcut sorguyu şu şekilde kaydet',
+            remove_label: 'Kaydedilen sorguyu kaldır',
+            remove_label_with_name: '"%{Name}" sorgusunu kaldır',
+            remove_dialog_title: 'Kaydedilen sorguyu kaldırın mı?',
+            remove_message: 'Bu öğeyi kaydedilen sorgular listenizden kaldırmak istediğinizden emin misiniz?',
+            help: 'Listeyi filtreleyin ve bu sorguyu daha sonra kaydedin',
+        },
+        configurable: {
+            customize: 'Özelleştirme',
+            configureMode: 'Bu sayfayı özelleştirin',
+            inspector: {
+                title: 'Müfettiş',
+                content: 'Özelleştirmek için uygulama kullanıcı arayüzü öğelerinin üzerine gelin',
+                reset: 'Ayarları Sıfırla',
+            },
+            SimpleList: {
+                primaryText: 'Birincil metin',
+                secondaryText: 'İkincil metin',
+                tertiaryText: 'Üçüncül metin',
+            },
         },
     },
 };
